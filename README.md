@@ -26,15 +26,15 @@ manifests:
     image: docker.io/fedora:rawhide
     platform: 
       architecture: ppc64
-      os: Linux
+      os: linux
       variant: ppc64le
   - 
     image: docker.io/ubuntu:latest
     platform: 
-      architecture: x86_64
+      architecture: amd64
       features: 
         - sse
-      os: Linux
+      os: linux
 ```
 
 If your cli config is found but it doesn't contain the necessary credentials for the queried registry
